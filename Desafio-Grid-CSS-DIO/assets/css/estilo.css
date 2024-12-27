@@ -1,0 +1,44 @@
+
+
+
+body{ font-family: "Roboto", serif; }
+a { text-decoration: none; color: rgb(71, 69, 69);}
+main{ display: flex;}
+
+ /* Estlizando o HEADER, barra menu**********************/
+.menu{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     height: 45px;
+}
+.item-search input{ align-items: center;}
+.y-search{ width: 348px; height: 40px; border: solid 2px #CCCCCC; font-size: 18px;}
+.buton-search{ 
+     width: 57px; 
+     height: 40px;
+     background-image: url("../object/search.png"); 
+     background-repeat: no-repeat;
+     background-size: 50%;
+     background-position: center;
+     border: solid 2px #CCCCCC;
+     margin-bottom: 30px;
+     margin: -10px 0px 0px -10px;
+}
+
+/* Estlizando o Main - SIDEBAR ************************/
+.col{ display: flex;}
+.col h2 {
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 16.41px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+
+}
+.sidebar{
+     width: 218px;
+}
+

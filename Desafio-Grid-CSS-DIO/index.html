@@ -5,29 +5,44 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Desafio CSS GRID - DIO</title>
           <link rel="stylesheet" href="../assets/css/estilo.css">
+          <style>
+               @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+          </style>
      </head>
      <body>
           <header>
                <div class="menu">
-                    <div>
+                    <div class="item">
                          <img src="../assets/icons/menu.png" alt="Acesso ao menu lateral">
-                         <img src="../ssets/object/youtube-1.png" alt="Icone do youtube videos">
+                         <img src="../assets/object/youtube-1.png" alt="Icone do youtube videos">
                     </div>
-                    <div>
-                         <img src="../assets/object/Rectangle-1.png" alt="montagem do buscador">
-                         <img src="../assets/object/Rectangle-2.png" alt="montagem do buscador">  
-                         <img src="../assets/object/search.png" alt="montagem do buscador">                      
+                    <div class="item-search">
+                         <label for="gsearch">
+                              <input class="y-search" type="search"  name="gsearch" placeholder="Pesquisar">
+                              <input class="buton-search" type="button" name="oneButton">
+                          </label>                                           
                     </div>
-                    <div><img src="../assets/object/Right.png" alt="icones do canto direito da página"></div>
+                    <div class="item"><img src="../assets/object/Right.png" alt="icones do canto direito da página"></div>
                </div>
           </header>
-          <container>
+          <main>
                <aside>
-                    <div class="sidebar"></div>
+                    <div class="sidebar">
+                        <div class="col"><a href="#"><img src="../assets/icons/home.png" alt="Home - Inicio do site"><h2>Inicio</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/compass.png" alt="Explorar"><h2>Explorar</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/youtube.png" alt="Inscrições"><h2>Inscrições</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/disc.png" alt="Youtube Music"><h2>Youtube Music</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/thumbs-up.png" alt="Videos que Gostei"><h2>Videos que Gostei</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/clock.png" alt="Assistir mais tarde"><h2>Assistir mais tarde</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/download.png" alt="Downloads"><h2>Downloads</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/film.png" alt="Filmes"><h2>Filmes</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/book.png" alt="Aprender"><h2>Aprender</h2></a></div>
+                        <div class="col"><a href="#"><img src="../assets/icons/award.png" alt="Esporte"><h2>Esporte</h2></a></div>
+                    </div>
                </aside>
-               <main>
+               <section>
                     <div class="video-grid"></div>   
-               </main>
-          </container>
+               </section>
+          </main>
      </body>
 </html>
