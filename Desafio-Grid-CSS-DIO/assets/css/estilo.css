@@ -27,7 +27,7 @@ main{ display: flex;}
 }
 
 /* Estlizando o Main - SIDEBAR ************************/
-.col{ display: flex;}
+.col a{ display: flex;}
 .col h2 {
      font-family: Roboto;
      font-size: 14px;
@@ -36,7 +36,6 @@ main{ display: flex;}
      text-align: left;
      text-underline-position: from-font;
      text-decoration-skip-ink: none;
-
 }
 .sidebar{
      width: 218px;
