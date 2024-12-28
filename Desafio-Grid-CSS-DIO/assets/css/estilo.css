@@ -1,5 +1,4 @@
-
-
+/* Estlizando elementos do body**********************/
 
 body{ font-family: "Roboto", serif; }
 a { text-decoration: none; color: rgb(71, 69, 69);}
@@ -27,17 +26,30 @@ main{ display: flex;}
 }
 
 /* Estlizando o Main - SIDEBAR ************************/
-.col a{ display: flex;}
+.col img{ object-fit: contain; }
+.col a{ display: flex; width: 218px; }
 .col h2 {
      font-family: Roboto;
      font-size: 14px;
-     font-weight: 700;
-     line-height: 16.41px;
+     font-weight: 400;
+     line-height: 26.41px;
      text-align: left;
      text-underline-position: from-font;
      text-decoration-skip-ink: none;
+     margin-left: 5%;
 }
 .sidebar{
-     width: 218px;
+     width: 218px;     
+     align-items: center;
 }
 
+/* Estlizando o Grid dos videos************************/
+
+.container{
+     grid: 100px 300px / auto-flow 200px;
+     
+}
+.video-item{
+    
+     
+}
