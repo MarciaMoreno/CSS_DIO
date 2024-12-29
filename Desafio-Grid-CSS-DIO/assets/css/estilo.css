@@ -17,18 +17,31 @@ main{ display: flex;}
 #lateral:hover{ border: solid 2px #b9bbbe; }
 
 /* Estlizando a barra de "BUSCAS" do menu**********************/
-.item-search input{ align-items: center;}
-.y-search{ width: 348px; height: 40px; border: solid 2px #CCCCCC; font-size: 18px;}
-.buton-search{ 
-     width: 57px; 
+.item-search input{ margin: 0px 0px 0px -5px; }
+.y-search{
+     width: 348px;
      height: 40px;
-     background-image: url("../object/search.png"); 
+     top: 8px;
+     left: 526px;
+     gap: 0px;
+     border: 1px 0px 0px 0px;
+     opacity: 0px;
+     font-size: 18px;
+}
+.buton-search{ 
+     width: 57px;
+     height: 40px;
+     top: 8px;
+     left: 873px;
+     gap: 0px;
+     border: 1px 0px 0px 0px;
+     opacity: 0px;
+     color: #f1f3f5;
+     background-color: #f1f3f5;
+     background-image: url("../object/search.png");
      background-repeat: no-repeat;
-     background-size: 50%;
      background-position: center;
-     border: solid 2px #CCCCCC;
-     margin-bottom: 30px;
-     margin: -10px 0px 0px -10px;
+
 }
 
 /* Estlizando o Main - SIDEBAR ************************/
