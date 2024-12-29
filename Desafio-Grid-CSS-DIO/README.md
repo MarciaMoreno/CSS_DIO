@@ -1,4 +1,4 @@
-# Desafio-de-Flexbox_DIO
+# Desafio CSS-GRID-DIO
 
 . Tela do projeto finalizado
-![..](https://github.com/MarciaMoreno/CSS_DIO/blob/main/Desafio-de-Flexbox_DIO/assets/images/Print-Projeto-pronto.png?raw=true)
+![..](https://github.com/MarciaMoreno/CSS_DIO/blob/main/Desafio-Grid-CSS-DIO/Captura-da-tela-Projeto-Concluido.png?raw=true)
