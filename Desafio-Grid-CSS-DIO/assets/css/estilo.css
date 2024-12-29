@@ -11,6 +11,12 @@ main{ display: flex;}
      justify-content: space-between;
      height: 45px;
 }
+#youtube{ border: solid 2px #fff;}
+#youtube:hover{ border: solid 2px #b9bbbe; }
+#lateral{ border: solid 2px #fff; }
+#lateral:hover{ border: solid 2px #b9bbbe; }
+
+/* Estlizando a barra de "BUSCAS" do menu**********************/
 .item-search input{ align-items: center;}
 .y-search{ width: 348px; height: 40px; border: solid 2px #CCCCCC; font-size: 18px;}
 .buton-search{ 
@@ -42,15 +48,19 @@ main{ display: flex;}
      width: 218px;     
      align-items: center;
 }
+.sidebar .col:hover{
+     text-decoration: underline;
+}
 
 /* Estlizando o Grid dos videos************************/
 
 .container{
-     background-color: rgb(230, 235, 235);
+     background-color: rgb(244, 249, 249);
      display: inline-grid;
      grid-template-columns: repeat(4, auto);
      align-content: space-between;     
      grid-auto-rows: minmax(auto, 1fr);
+     padding: 20px;
 }
 .video-item{ 
      width: Hug (282px)px;
@@ -62,7 +72,7 @@ main{ display: flex;}
      border-radius: 4px 0px 0px 0px;
      opacity: 0px;     
 }
-.video-item a img{ border: solid 1px rgb(230, 235, 235); }
+.video-item a img{ border: solid 1px rgb(244, 249, 249); }
 .video-item a img:hover{
      border: solid 1px #b9bbbe;    
 }
