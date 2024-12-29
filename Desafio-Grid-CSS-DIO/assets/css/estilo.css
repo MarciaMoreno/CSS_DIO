@@ -46,10 +46,23 @@ main{ display: flex;}
 /* Estlizando o Grid dos videos************************/
 
 .container{
-     grid: 100px 300px / auto-flow 200px;
-     
+     background-color: rgb(230, 235, 235);
+     display: inline-grid;
+     grid-template-columns: repeat(4, auto);
+     align-content: space-between;     
+     grid-auto-rows: minmax(auto, 1fr);
 }
-.video-item{
-    
-     
+.video-item{ 
+     width: Hug (282px)px;
+     height: Fixed (262px)px;
+     top: 80px;
+     left: 542px;
+     padding: 16px 0px 0px 0px;
+     gap: 16px;
+     border-radius: 4px 0px 0px 0px;
+     opacity: 0px;     
+}
+.video-item a img{ border: solid 1px rgb(230, 235, 235); }
+.video-item a img:hover{
+     border: solid 1px #b9bbbe;    
 }
