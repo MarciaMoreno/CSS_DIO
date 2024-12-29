@@ -11,10 +11,18 @@ main{ display: flex;}
      justify-content: space-between;
      height: 45px;
 }
-#youtube{ border: solid 2px #fff;}
-#youtube:hover{ border: solid 2px #b9bbbe; }
-#lateral{ border: solid 2px #fff; }
-#lateral:hover{ border: solid 2px #b9bbbe; }
+#youtube{ 
+     border: solid 2px #fff;
+}
+#youtube:hover{ 
+     border: solid 2px #b9bbbe; 
+}
+#lateral{ 
+     border: solid 2px #fff; 
+}
+#lateral:hover{ 
+     border: solid 2px #b9bbbe; 
+}
 
 /* Estlizando a barra de "BUSCAS" do menu**********************/
 .item-search input{ margin: 0px 0px 0px -5px; }
