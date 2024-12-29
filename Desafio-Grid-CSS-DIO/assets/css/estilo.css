@@ -36,12 +36,15 @@ main{ display: flex;}
      gap: 0px;
      border: 1px 0px 0px 0px;
      opacity: 0px;
-     color: #f1f3f5;
-     background-color: #f1f3f5;
+     color: #c7c9cc;
+     background-color: #c7c9cc;
      background-image: url("../object/search.png");
      background-repeat: no-repeat;
      background-position: center;
-
+}
+.buton-search:hover{
+     color: #eff0f3;
+     background-color: #eff0f3;
 }
 
 /* Estlizando o Main - SIDEBAR ************************/
