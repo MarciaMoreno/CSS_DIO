@@ -1,0 +1,44 @@
+a{ text-decoration: none;}
+ul { margin: 0; padding: 0;}
+ul li{ list-style: none;}
+body{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: 300px repeat(3, 300px);
+     grid-template-areas: 
+          "header header header header"
+          "aside section section section"
+          "aside article01 article02 article03"
+          "aside footer footer footer"
+     ;
+}
+header, section, aside, footer{ padding: 50px;}
+header{ 
+     grid-area: header; 
+     background-color: rgba(99, 78, 119, 0.801);
+     text-align: center;
+     
+}
+h1{ font-size: 3rem; color: rgb(247, 238, 153); }
+h2{ font-style: italic; color: rgb(255, 255, 204); padding-bottom: 20px; font-size: 20px;}
+.sidebar{
+     grid-area: aside;
+     background-color: rgb(235, 214, 255);
+     text-align: center;
+     line-height: 250%;
+     text-transform: uppercase;
+     letter-spacing: 14px;
+}
+.sidebar ul li{ border-bottom: solid 2px #5a4c65 ; width: fit-content;}
+.section{
+     grid-area: section;
+     padding: 20px;
+}
+.section h2{ background-color: rgb(247, 238, 153); color: rgb(85, 62, 97); padding: 5%; font-size: 25px;}
+.section p{ text-indent: 52px; font-size: 18px; text-align: justify; word-break: keep-all; }
+
+.article01{ grid-area: article01; background-color: blueviolet;}
+.article02{ grid-area: article02;}
+.article03{ grid-area: article03;}
