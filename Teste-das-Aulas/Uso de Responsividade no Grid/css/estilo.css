@@ -45,8 +45,9 @@ body{
 .article03 { grid-area: article03; background-color: #410b7e; padding: 5%;}
 
 #quadro{
-     width: 70%;     
-     margin: 10% 0% 0% 10%;
+     max-width: 100%; 
+     object-fit: contain;       
+     object-position: center;  
 }
 
 /* FORMATAÇÃO DOS ELEMENTOS DO FOOTER *******************************
