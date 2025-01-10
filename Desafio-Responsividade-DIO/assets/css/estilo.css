@@ -18,19 +18,16 @@
 
 /*ELEMENTOS DO BODY **************************************
 *********************************************************/
-p{
-     font-family: Open Sans;
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 21.79px;
-     text-align: left;
-     text-underline-position: from-font;
-     text-decoration-skip-ink: none;
-   }
+
 
 /*ELEMENTOS DO HEADER **************************************
 ************************************************************/
-
+#header{
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+     
+}
 /*ELEMENTOS DO MAIN **************************************
 ************************************************************/
 
