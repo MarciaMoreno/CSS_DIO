@@ -1,39 +1,39 @@
       /*FONTES DO GOOGLE**************************************
       *******************************************************/
             .luckiest-guy-regular {
-            font-family: "Luckiest Guy", serif;
-            font-weight: 400;
-            font-style: normal;
+                font-family: "Luckiest Guy", serif;
+                font-weight: 400;
+                font-style: normal;
             }
 
             /* <uniquifier>: Use a unique and descriptive class name
             // <weight>: Use a value from 300 to 800 */   
             .open-sans{
-            font-family: "Open Sans", serif;
-            font-optical-sizing: auto;
-            font-weight: 400;
-            font-style: normal;
-            font-variation-settings:"wdth" 100;
+                font-family: "Open Sans", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:"wdth" 100;
             }   
 
       /*ELEMENTOS DO BODY **************************************
       *********************************************************/
-      body{
-        max-width: auto;
-        margin: auto;
-      }
+          body{
+              flex-wrap: wrap;
+              margin: auto;
+          }
 
       /*ELEMENTOS DO HEADER **************************************
       ************************************************************/
-      header{
-        flex-wrap: wrap;
-        max-width: 1280px;
-        height: auto;         
-      }
-      #header{
-        max-width: 100%;
-        object-position: center;
-      }
+          header{
+              max-width: 1280px;
+              margin: auto;
+              height: auto;                       
+          }
+          #img-head{
+              max-width: 100%;
+              height: auto;
+          }
       /*ELEMENTOS DO MAIN **************************************
       ************************************************************/
       .section-01, .section-02, .section-03{ display: flex; justify-content: center; flex-wrap: wrap; }
@@ -45,7 +45,7 @@
         max-width: 100%;
         height: auto;     
       }
-
+    
       .box-texto h2{ 
         max-width: 329px;
         font-family: Open Sans;
@@ -65,9 +65,9 @@
         text-decoration-skip-ink: none;
       }
       .section-02, .section-04{background-color: #f2f7fa;}
-
-      .section-04{ flex-wrap: wrap; text-align: center; }
-
+    
+      .section-04{ justify-content: center; flex-wrap: wrap; text-align: center;}
+    
       .section-04 h2{
         padding: 2%;
         font-family: Luckiest Guy;
@@ -75,24 +75,32 @@
         font-weight: 400;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;  
-      }
-      .section-04 p{
+       }
+       .section-04 p{
         padding: 0% 15% 0% 15%;
         font-family: Open Sans;
         font-weight: 400;
         text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-
-      }
+        text-decoration-skip-ink: none;    
+       }
+       .pai-img2{      
+        max-width: 784px;
+        margin: auto;
+        height: auto;      
+       }
+       .pai-img2 img{ max-width: 100%;}
       /*ELEMENTOS DO FOOTER **************************************
       ************************************************************/
       .footer{
-        flex-wrap: wrap;
-        max-width: 100%;
-        height: auto;   
+        max-width: 1280px;
+        margin: auto;
+        height: auto;      
       }
-      .footer img{
+     .footer img{
         max-width: 100%;
-        object-position: center;
-      }
+        height: auto;
+     }
+      /*ELEMENTOS DO @MEDIA-QUERIES **************************************
+	************************************************************/
 
+      

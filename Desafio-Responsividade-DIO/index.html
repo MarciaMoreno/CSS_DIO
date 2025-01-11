@@ -16,9 +16,10 @@
 </head>
 <body>
      <header>
-          <div class="header">
-               <img src="./assets/imagem/Header-big.png" alt="">
-          </div>          
+          <picture class="header">
+               <source media='(max-width: 500px)' srcset='./assets/imagem/Header-small.png'>
+               <img id="img-head" src="./assets/imagem/Header-big.png" alt="">
+          </picture>          
      </header>
      <main>
           <section class="section-01">
@@ -67,7 +68,7 @@
                          uma galera pra desenhar na tela compartilhada.
                     </p>
                </div>
-               <div>
+               <div class="pai-img2">
                     <img src="./assets/imagem/pic-section-04.png" alt="Imagem 04">
                </div>
           </section>
