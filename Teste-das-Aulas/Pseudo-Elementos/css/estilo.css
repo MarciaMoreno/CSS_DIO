@@ -63,7 +63,7 @@ video::backdrop{
      background-color: #300;
      background-size: 100px 100px;
 }
-h2::marker{
+summary::marker{
      content: "♫";
      color: #7F25CE;
 }
