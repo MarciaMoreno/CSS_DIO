@@ -1,13 +1,24 @@
-.container{
-     flex-wrap: wrap;
-     max-width: 100%;
-     max-height: auto;
-     border: solid 4px #000;
+div{
+     width: 800px;
+     height: 400px;
+     border: dashed 2px #ccc;     
 }
 
 img{
      width: 100%;
-     height: 100%;     
+     height: 100%;
+}
+
+#fill{
+     object-fit: fill;
+}
+#contain{
      object-fit: contain;
-     object-position: center ;
+}
+
+#none{
+     object-fit: none;
+}
+#scale-down{
+     object-fit: scale-down;
 }
