@@ -41,13 +41,10 @@ body{
      align-items: center;
 }
 
-.box1,.box2,.box3{
+.box1{
      background: linear-gradient(90deg, #ab0469 0%, #029cb4 100%);
      width: 200px;
      height: 200px;
      border-radius: 5%;
-}
-
-.box1{
-     transform: rotate(20deg);
+     transform: rotate(45deg);
 }
