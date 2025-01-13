@@ -1,0 +1,53 @@
+/* Estilo css do index.html
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(247,247,247);
+
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.box1,.box2,.box3{
+     background: linear-gradient(90deg, #ab0469 0%, #029cb4 100%);
+     width: 200px;
+     height: 200px;
+     border-radius: 5%;
+}
+
+.box1:hover{
+     transform: translate(150px, 250px);
+}
+.box2:hover{
+     transform: translate(200px, 0);
+}
+.box3:hover{
+     transform: translateX(100px) translateY(-250px);
+}
+
+*/
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(247,247,247);
+
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.box1,.box2,.box3{
+     background: linear-gradient(90deg, #ab0469 0%, #029cb4 100%);
+     width: 200px;
+     height: 200px;
+     border-radius: 5%;
+}
+
+.box1{
+     transform: rotate(20deg);
+}

@@ -1,0 +1,55 @@
+
+body{
+     flex-wrap: wrap;
+     
+}
+p{ text-indent: 52px;}
+header,footer{
+     text-align: center;
+     padding: 2%;
+     background-color: slategrey;
+     color: rgb(243, 232, 170);
+     font-size: 1.5rem;
+}
+
+main{
+     padding: 10%;
+     justify-items: center;
+     margin: auto;
+     font-size: 1.2rem; 
+}
+
+h3{
+     text-align: center;
+     width: 100%;
+     background-color: rgba(76, 0, 130, 0.148);
+     padding: left/right 10%;
+}
+
+li:nth-last-child(2n){
+     background-color: rgba(0, 139, 139, 0.44);
+     text-align: center;
+}
+
+dt:nth-last-of-type(1){
+     color: red;
+     background-color: rgba(243, 205, 110, 0.558);
+}
+
+.container{
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     perspective: 100px;
+
+}
+
+.box{
+     background: linear-gradient(90deg, #c2027b 0%, #437996 100% );
+     width: 200px;
+     height: 200px;
+     border-radius: 8px;
+     transform: rotateY("30deg");
+}
