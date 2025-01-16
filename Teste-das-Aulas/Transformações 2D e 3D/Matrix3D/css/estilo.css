@@ -1,0 +1,20 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     perspective: 300px;
+}
+
+.box{
+     width: 200px;
+     height: 200px;
+     border-radius: 4%;
+     position: absolute;
+     background: linear-gradient(90deg, #b30a6a 0%, #096586 100%);
+     transform: matrix3d(-1.297,-0.035,0.375,0,0.035, -0.838, 0.545, 0, -0.375, -0.545, -0.778, 0, -35, 40, 20, 1);
+}

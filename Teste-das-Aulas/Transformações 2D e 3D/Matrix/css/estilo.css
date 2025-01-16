@@ -1,0 +1,31 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+.box{
+     background: linear-gradient(90deg, #c80c64 0%, #0e8cb2 100%);
+     width: 200px;
+     height: 200px;
+     border-radius: 2%;     
+}
+
+.box:hover{
+    /**A função matrix estiliza as propriedades na seguinte ordem...
+    1º ScaleX
+    2º SkewY
+    3º SkewX
+    4º ScaleY
+    5º TranslateX
+    6º TranslateY
+    ***/
+
+    transform: matrix(1,0,0,1,0,0);
+}
