@@ -1,0 +1,48 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     perspective: 300px;
+}
+
+.box{
+     width: 200px;
+     height: 200px;
+     border-radius: 4%;
+     background: rgb(217, 15, 102);
+     animation-name: change-background;
+     animation-duration: 6s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     animation-direction: reverse;
+     /*animation-timing-function: ease-in;*/
+     animation-fill-mode: both;
+     /**...ou utilizar o codigo abaixo como shorthands... 
+     animation: change-background 5s linear 2s infinite alternate;***/
+}
+
+.box:hover{ animation-play-state: paused;}
+
+@keyframes change-background {
+     20%{
+          background: linear-gradient(90deg, rgb(186, 8, 109) 0%, #038fb2 100%);
+          width: 200px;
+          height: 200px;
+     }
+     50%{
+          background: linear-gradient(90deg, rgb(120, 5, 70) 0%, #72daf4 100%);
+          width: 500px;
+          height: 400px;
+     }    
+     100%{
+          background: linear-gradient(90deg, rgb(244, 118, 240) 0%, #37d89d 100%);
+          width: 100px;
+          height: 200px;
+     }
+}
