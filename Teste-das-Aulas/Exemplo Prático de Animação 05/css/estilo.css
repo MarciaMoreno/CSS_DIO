@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+
+body{
+     color: #fff;
+     text-align: center;
+     font-family: 'Quicksand', sans-serif;
+     margin: 0;
+     height: 100vh;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     background-color: #000;
+     perspective: 300px;
+     flex-direction: column;
+     font-size: 2rem;
+}
+h1{ 
+     padding: 2%;
+     background: linear-gradient(90deg, #a5f8fe 0%, #f3eab0 25%, #fdb5e1 50%, #bbd5af 75%, #ecb6b6 100%);
+
+}
+.box{
+     position: absolute;
+     color: #666;
+     background-color: #fff;
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     -webkit-box-shadow: 87px 92px 183px 40px rgba(255,255,255,1);
+     -moz-box-shadow: 87px 92px 183px 40px rgba(255,255,255,1);
+     box-shadow: 7px 22px 43px 70px rgba(255,255,255,1), 17px 32px 73px 140px rgba(255,255,255,1), 87px 92px 183px 40px rgba(255,255,255,1);
+     animation: ponto-de-luz 6s infinite alternate;
+     filter: blur(80px);
+}
+
+@keyframes ponto-de-luz{
+     0%{
+          transform: rotateY(30deg) rotate(-25deg) translateZ(100px);
+     }
+     25%{
+          transform: rotateY(-30deg) translateZ(100px);
+     }
+     50%{
+          transform: rotateX(-50deg) translate(-100px);
+     }
+     75%{
+          transform: rotateX(-50deg) translateZ(-100px);
+     }
+     100%{
+          transform: rotateX(20deg) translateZ(0);
+     }
+}
