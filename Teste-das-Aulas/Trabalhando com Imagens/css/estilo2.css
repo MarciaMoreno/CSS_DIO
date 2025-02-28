@@ -1,0 +1,11 @@
+.container{
+     margin: auto;
+     display: flex;
+     height: 100vh;
+     background-image: url(../Imagens/parte2.png);
+     background-image: conic-gradient(from 90deg at 0 0, blue, red);
+
+}
+
+#imagem{
+}
