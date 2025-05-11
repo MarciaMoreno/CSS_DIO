@@ -1,0 +1,50 @@
+body{
+     flex-wrap: wrap;
+}
+ul li{ list-style: none;}
+
+header,footer{
+     text-align: center;
+     background-color: rgb(157, 132, 152);
+     color: blanchedalmond;
+     font-size: 1.2rem;
+     padding: 5%;
+}
+
+main{
+     width: 60%;
+     margin: auto;
+     font-size: 1.5rem;
+     
+}
+article{ text-indent: 52px;}
+article :nth-child(1) { font-style: italic; color: darkmagenta;}
+article :nth-child(2) { font-style: bold; font-family: Papyrus; font-size: 2.20rem;}
+article :nth-child(3) { font-weight: 800 ; color: rgb(165, 171, 167);}
+article :nth-child(4) { font-style: italic; color: darkmagenta;}
+
+#lista-01 li:nth-child(even){
+     background-color: rgb(121, 109, 117);
+     color: #fff;
+     padding: 4%;
+     border-radius: 22%;
+     text-align: center;
+}
+
+#lista-01 li:nth-child(odd){
+     background-color: rgb(168, 205, 190);
+     color: #151515;
+     padding: 4%;
+     border-radius: 22%;
+     text-align: center;     
+}
+
+#lista-02 li:nth-child(even){
+     background-color: aquamarine;
+     text-align: right;
+     border-bottom: dashed 2px #151515;
+}
+
+#lista-02 li:nth-child(odd){
+     background-color: rgb(231, 243, 182);
+}

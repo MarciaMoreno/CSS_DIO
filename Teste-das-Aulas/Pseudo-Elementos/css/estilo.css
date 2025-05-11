@@ -1,0 +1,72 @@
+body{
+     margin: auto;
+     
+}
+header, footer{     
+     color: #f1eff4;
+     text-align: center;
+     background-color: #9b59d8;
+     padding: 2rem;
+     font-size: 2rem;
+     background:
+     radial-gradient(hsl(266, 91%, 63%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+     radial-gradient(hsl(266, 79%, 62%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+     radial-gradient(hsla(266, 94%, 68%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+     radial-gradient(hsla(266, 63%, 57%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+     radial-gradient(rgb(102, 56, 161) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+     radial-gradient(rgb(85, 48, 133) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+     radial-gradient(hsla(266, 48%, 27%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+     radial-gradient(hsla(266, 48%, 16%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+     linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+     linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+     background-color: #300;
+     background-size: 100px 100px;
+     
+}
+
+/***********************************************************************************************************************************/
+main{
+     max-width: 800px;
+     flex-wrap: wrap;
+     margin: auto;
+     
+}
+p{ font-size: 2rem; line-height: 1.2em;}
+p::first-letter{
+     color: #4d0393;
+     font-size: 2rem;
+     font-family: fantasy;
+     text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, 1px 2px 6px #7F25CE;
+}
+p::first-line{
+     font-weight: bold;
+     text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, 1px 2px 6px #7F25CE;
+}
+.container{
+     max-width: 850px;
+     margin: auto;
+     justify-content: center;
+}
+
+video{  width: 100%; }
+video::backdrop{
+     background:
+     radial-gradient(hsl(266, 91%, 63%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+     radial-gradient(hsl(266, 79%, 62%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+     radial-gradient(hsla(266, 94%, 68%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+     radial-gradient(hsla(266, 63%, 57%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+     radial-gradient(rgb(102, 56, 161) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+     radial-gradient(rgb(85, 48, 133) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+     radial-gradient(hsla(266, 48%, 27%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+     radial-gradient(hsla(266, 48%, 16%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+     linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+     linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+     background-color: #300;
+     background-size: 100px 100px;
+}
+summary::marker{
+     content: "♫";
+     color: #7F25CE;
+}
+
+/***********************************************************************************************************************************/

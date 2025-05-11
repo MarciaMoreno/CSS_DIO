@@ -1,0 +1,26 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     perspective: 300px;
+}
+
+.box{
+     background: linear-gradient(90deg, #d8427e 0%, #06919b 100%);
+     width: 200px;
+     height: 200px;
+     border-radius: 4%;
+     transition: 2s;
+     transform-origin: left top;
+}
+
+.box:hover{
+     /*transform: rotate(40deg);*/
+     transform: scale(1.7);
+}

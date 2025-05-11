@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pseudo Classes</title>
+     <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+     <header>
+          <h1>Pseudo Classes - :invalid e :valid, :in-range e :out-ofrange</h1>
+     </header>
+     <main>
+          <hr>
+          <form action="#" method="get" autocomplete="on">
+               <h3>Faça sua compra</h3>
+               <label for="email" required>E-mail: </label>
+                    <input type="email" name="email">
+                    <span class="erro">Email incorreto</span>
+               <label for="codigo-produto">Codigo do Pedido: </label>
+                    <input type="number" name="codigo-produto" min="1000">
+                    <span class="erro">Código do Produto incorreto</span>
+               <label for="cupom">Cupom de Desconto: </label>
+                    <input name="cupom" type="text" pattern="[a-z]+" placeholder="Apenas letras minúsculas">
+                    <span class="erro">Cupom de desconto incorreto</span>
+               <label for="data-nascimento">Data de Nascimento: </label>
+                    <input type="date" name="data-nascimento" min="1962-01-01" max="2004-12-31">
+                    <span class="erro">Data de Nascimento incorreto</span>
+               <label for="quantidade">Quantidade: </label>
+                    <input type="number" name="amount" min="3" max="10">
+                    <span class="erro">Quantidade incorreto</span>
+               <label>
+                    <input type="checkbox" required>
+                    <span>Li e aceito os termos de uso.</span>
+               </label>
+               <button type="submit">Comprar</button>
+               <button type="reset">Limpar</button>
+          </form>
+          <hr>
+          <hr>
+     </main>
+     <footer>
+          <h2>Nazaré do Piauí &copy; - 2025</h2>
+     </footer>
+</body>
+</html>

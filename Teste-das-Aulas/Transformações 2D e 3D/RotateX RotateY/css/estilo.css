@@ -1,0 +1,23 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+.box{
+     background: linear-gradient(90deg, #c80c64 0%, #0e8cb2 100%);
+     width: 200px;
+     height: 200px;
+     border-radius: 2%;     
+}
+
+.box:hover{
+     transform: rotateY(40deg);
+     transform: rotateX(40deg);
+}

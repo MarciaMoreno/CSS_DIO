@@ -1,0 +1,98 @@
+body{
+     flex-wrap: wrap;
+}
+
+header{
+     background-color: rgb(69, 109, 98);
+     color: rgb(249, 241, 140);
+     font-size: 1.5rem;
+     padding: 4%;
+     text-align: center;
+}
+main{
+     margin: auto;
+     justify-items: center;
+}
+main ol{
+     font-size: 1.5rem;
+}
+
+main p{
+     width: 60%;
+     text-indent: 52px;
+     text-align: justify;
+     font-size: 1.2rem;
+     padding: 4%;
+}
+
+footer{
+     background-color: rgb(69, 109, 98);
+     color: rgb(249, 241, 140);
+     padding: 2%;
+     text-align: center;
+}
+
+p:target{
+     background-color: rgb(192, 187, 197);
+     padding: 4%;
+}
+p:target::before{
+     content: "✎";
+     background-color: rgb(69, 109, 98);
+     color: rgb(249, 241, 140);
+     margin-right: 10px;
+     
+}
+/************************************************************************************************************************7
+*********************************forms index2.html*******************************************************************************/
+
+input[type="checkbox"]:checked + label{ text-decoration: line-through; }
+form label{ display: block; margin-top: 12px;}
+input{ padding: 4px 14px; margin-top: 8px;}
+form{
+     border: 1px solid #56137c;
+     border-radius: 4px;
+     width: 300px;
+     padding: 40px;
+     margin: auto;
+     background-color: #f2e1fce4;
+}
+
+form h3{ margin: 0;}
+
+/***** Validação de estilo para :valid, :invalid, :in-range e :out-of-range****/
+input:in-range, input:valid{
+     border: solid 2px rgba(154, 255, 47, 0.774);
+     color: rgba(37, 41, 32, 0.774);
+}
+
+input:out-of-range, input:invalid{
+     border: solid 2px orange;
+     color:rgb(68, 103, 94);
+}
+
+.erro{
+     color: rgb(244, 20, 20);
+     font-size: 0.75em;
+     display: none;
+     margin-top: 4px;
+}
+
+input:invalid + .erro{
+     display: block;
+}
+
+/***** Validação de estilo para :required, :optional*********
+
+input{ border-style: solid;}
+input:required{
+     border-color: red;
+}
+input:optional{ 
+     border-color: orange;
+}
+*/
+
+input:-webkit-autofill{
+     border: 2px solid greenyellow;
+}

@@ -1,0 +1,29 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     perspective: 300px;
+}
+
+.box{
+     width: 200px;
+     height: 200px;
+     border-radius: 4%;
+     position: absolute;
+     background: linear-gradient(90deg, #b4035b 0%, #faca44 100%);
+
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+     display: flex;
+     font-family: 1.5rem;
+     font-weight: bold;
+
+     transform: rotateY(10deg);
+     backface-visibility: visible;
+}

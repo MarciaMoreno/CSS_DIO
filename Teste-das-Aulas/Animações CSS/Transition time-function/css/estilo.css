@@ -1,0 +1,35 @@
+
+body{
+     flex-wrap: wrap;
+}
+main{
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     font-size: 1rem;
+}
+
+header, footer{
+     text-align: center;
+     padding: 5%;
+     background-color: rgba(90, 6, 53, 0.673);
+     color: aliceblue;
+}
+
+div{
+     margin: 5%;
+     width: 100px;
+     height: 100px;
+     background: rgb(239, 84, 96);
+     transition: width 2s;
+}
+
+#div1{ transition-timing-function: linear;}
+#div2{ transition-timing-function: ease; }
+#div3{ transition-timing-function: ease-in; }
+#div4{ transition-timing-function: ease-out;} 
+#div5{ transition-timing-function: ease-in-out;}
+
+div:hover{
+     width: 300px;
+}

@@ -1,0 +1,39 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: aliceblue;
+
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     perspective: 300px;
+}
+
+.box{
+     width: 200px;
+     height: 200px;
+     border-radius: 4%;
+     position: absolute;
+     background: #b4035b;
+
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+     display: flex;
+     font-weight: bold;
+     font-size: 1.4rem;
+     transition: background 1s linear, transform 1.5s ease-in-out 1s;
+
+     /*Transition pode ser trabalhada nas seguintes nomenclaturas...
+     shorthands=> transition: <property> <duration> <timing-function> <delay>;
+     1º delay
+     2º duration
+     3º property
+     4º timing-function */
+}
+
+.box:hover{
+     background-color: #12617d;
+     transform: rotateX(40deg);
+}
