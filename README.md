@@ -1,5 +1,5 @@
 
-<div align="center"><h1>CSS - DIO</h1><img src="/assets/icon-dio.png" alt="Icone DO CURSO CSS DA DIO"></div>
+<div align="center"><h1>CSS - DIO</h1><img src="../assets/icon-dio.png" alt="Icone DO CURSO CSS DA DIO"></div>
 
 
 Professor Orientador: Michele Ambrosio.
