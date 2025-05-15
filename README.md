@@ -9,7 +9,7 @@ Professor Orientador: Michele Ambrosio.
 
 | Perfil GIT/GitHobby | Dados Profissionais. |
 |---------------------------------------------|----------------------------------------| 
-|<a href="https://github.com/micheleambrosio"> <img src="./assets/foto_orientadora.png" alt="Foto do pefil Michele Ambrosio"></a> | <a href="https://github.com/micheleambrosio"><Img src="./assets/perfil-orientadora.png" alt="Dados porfissionais do professor"></a> |
+|<a href="https://github.com/micheleambrosio"> <img src="./assets/foto_orientadora.png" alt="Foto do pefil Michele Ambrosio"></a> | <a href="https://github.com/micheleambrosio"><Img src="assets/perfil-orientadora.png" alt="Dados porfissionais do professor"></a> |
 
 <img src="./assets/parcerias-dio.png" alt="Info placar da DIO">
 
